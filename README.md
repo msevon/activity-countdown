@@ -4,7 +4,7 @@ A minimal mobile app made with Dart + Flutter for tracking daily activity time l
 
 ## Screenshots
 
-*Add screenshots of your app here*
+![ui1](screenshots/actv-cd1.jpg) ![ui2](screenshots/actv-cd2.jpg) ![ui3](screenshots/actv-cd3.jpg) ![ui4](screenshots/actv-cd4.jpg) 
 
 ## Features
 
