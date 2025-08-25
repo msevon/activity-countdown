@@ -1,0 +1,50 @@
+name: activity_countdown
+description: A minimal mobile app for tracking daily activity time limits.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.2
+  flutter_local_notifications: ^18.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.7
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - logo.png
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "logo.png"
+  min_sdk_android: 21
+
+flutter_native_splash:
+  color: "#000000"
+  image: logo.png
+  android_12:
+    image: logo.png
+    color: "#000000"
+  fullscreen: true
+  android: true
+  ios: false
+  web: false
+  image_dark: logo.png
+  color_dark: "#000000"
+  android_gravity: center
+  ios_content_mode: center
+  web_image_mode: center
