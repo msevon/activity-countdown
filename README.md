@@ -1,6 +1,6 @@
 # Activity Countdown
 
-A minimal mobile app made with Dart + Flutter for tracking daily activity time limits with persistent notifications and beautiful dark UI.
+A minimal mobile app made with Dart + Flutter for tracking daily activity time limits with persistent notifications and dark UI.
 
 ## Screenshots
 
